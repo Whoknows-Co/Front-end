@@ -6,14 +6,15 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 55px;
+  position: relative;
 }
 .navbar {
-  width: auto;
+  position: absolute;
+  right: 150px;
   display: flex;
   gap: 39px;
   justify-content: space-around;
   align-items: center;
-  margin-right: 100px;
 }
 .navbar div {
   width: auto;
