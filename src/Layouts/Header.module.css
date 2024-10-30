@@ -1,7 +1,7 @@
 .container {
   width: 100%;
-  height: 126px;
-  background-color: #fcc727;
+  height: 120px;
+  background-color: #f8d74a;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -35,7 +35,7 @@
   height: 63px;
   background-color: #023047;
   border: none;
-  color: #f8d74a;
+  color: #ffffff;
   font-size: 32px;
   border-radius: 87px;
   font-weight: bold;
