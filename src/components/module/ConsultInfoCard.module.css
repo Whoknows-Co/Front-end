@@ -28,6 +28,7 @@
   border-right: 12px solid #fce6af;
   box-shadow: 3px -3px 50px 0px rgba(0, 0, 0, 0.25);
   overflow: hidden;
+  padding: 49px 32px 0 0;
 }
 
 .background {
@@ -45,8 +46,23 @@
   opacity: 0.22;
 }
 
-.any {
-  position: relative;
-  z-index: 2;
-  /* Other styling for the h2 if needed */
+.header {
+  display: flex;
+  gap: 30px;
+}
+.details {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.header div div {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.bullets {
+  position: absolute;
+  top: 15px;
+  right: 18px;
 }
