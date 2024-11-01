@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  background-color: #fcc727;
+  height: 383px;
+  padding: 45px 73px 0 61px;
+  justify-content: space-between;
+}
+.container div {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+}
+.container h3 {
+  margin-bottom: 18px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.container p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  line-height: 30px;
+}
+.container img {
+  width: 98px;
+  margin-top: 77px;
+}
+.contactUs {
+  align-items: center;
+}

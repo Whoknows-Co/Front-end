@@ -4,11 +4,5 @@
   box-sizing: border-box;
 }
 body {
-  background: rgb(195, 210, 218);
-  background: linear-gradient(
-    0deg,
-    rgba(195, 210, 218, 1) 16%,
-    rgba(253, 246, 214, 1) 72%
-  );
-  height: 10000px;
+  background-color: #f4f2ea;
 }
