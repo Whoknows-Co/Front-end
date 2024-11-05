@@ -1,9 +1,10 @@
 .container {
   display: flex;
-  background-color: #fcc727;
+  background-color: #f4f2ea;
   height: 383px;
   padding: 45px 73px 0 61px;
   justify-content: space-between;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .container div {
   display: flex;

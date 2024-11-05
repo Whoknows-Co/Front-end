@@ -29,6 +29,7 @@
   box-shadow: 3px -3px 50px 0px rgba(0, 0, 0, 0.25);
   overflow: hidden;
   padding: 49px 32px 0 0;
+  color: #023047;
 }
 
 .background {
@@ -65,4 +66,50 @@
   position: absolute;
   top: 15px;
   right: 18px;
+}
+.main {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+}
+.main .top {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  gap: 7px;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 24px;
+  gap: 20px;
+}
+.bottom div {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.bottom p {
+  color: black;
+  font-size: 20px;
+}
+.footer {
+  margin-top: 46px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 24px;
+}
+.footer div {
+  width: 326px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 46px;
+}
+.footer img {
+  width: 40px;
 }

@@ -1,2 +1,1 @@
-# WhoKnows Konkour helper system 
-
+# WhoKnows Konkour helper system
