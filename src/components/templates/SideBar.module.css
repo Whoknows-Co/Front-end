@@ -1,0 +1,23 @@
+.container {
+  width: 436px;
+  height: 944px;
+  color: #023047;
+  padding-right: 32px;
+}
+.container img {
+  width: 103px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.navBar {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.navBar img {
+  width: 23px;
+}
