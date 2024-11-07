@@ -1,8 +1,8 @@
 import React from "react";
 
-function ButtonSB({ txt, imgUrl }) {
+function ButtonSB({ txt, imgUrl, bColor }) {
   const styles = {
-    backgroundColor: "#F4F2EA",
+    backgroundColor: bColor,
     width: "280px",
     height: "62px",
     boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",

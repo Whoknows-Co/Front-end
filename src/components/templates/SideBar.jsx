@@ -16,37 +16,44 @@ function SideBar() {
         <NavLink style={{ textDecoration: "none" }}>
           <ButtonSB
             txt={"حساب کاربری"}
-            imgUrl={"../../../public/icons/Educatoin.svg"}
+            imgUrl={"../../../public/icons/personOrange.svg"}
+            bColor={"rgba(251, 133, 0, 0.21)"}
           ></ButtonSB>
         </NavLink>
         <NavLink style={{ textDecoration: "none" }}>
           <ButtonSB
             txt={"ویرایش اطلاعات حساب"}
-            imgUrl={"../../../public/icons/Educatoin.svg"}
+            imgUrl={"../../../public/icons/editPersonBlue.svg"}
+            bColor={"#F4F2EA"}
           ></ButtonSB>
         </NavLink>
         <NavLink style={{ textDecoration: "none" }}>
           <ButtonSB
             txt={"نوبت های من"}
-            imgUrl={"../../../public/icons/Educatoin.svg"}
+            imgUrl={"../../../public/icons/calenderBlue.svg"}
+            bColor={"#F4F2EA"}
           ></ButtonSB>
         </NavLink>
         <NavLink style={{ textDecoration: "none" }}>
           <ButtonSB
             txt={"مشاوران من"}
-            imgUrl={"../../../public/icons/Educatoin.svg"}
+            imgUrl={"../../../public/icons/EducatoinBlue.svg"}
+            bColor={"#F4F2EA"}
           ></ButtonSB>
         </NavLink>
 
         <ButtonSB
           txt={"خروج از حساب"}
-          imgUrl={"../../../public/icons/Educatoin.svg"}
+          imgUrl={"../../../public/icons/exit-icon.svg"}
+          bColor={"#F4F2EA"}
         ></ButtonSB>
       </div>
       <div className={styles.footer}>
-        <p></p>
-        <span></span>
-        <button></button>
+        <div className={styles.bBack}></div>
+        <div className={styles.oBack}></div>
+        <p>موجودی کیف پول</p>
+        <span> 0 تومان</span>
+        <button>افزایش موجودی</button>
       </div>
     </div>
   );
